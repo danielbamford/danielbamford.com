@@ -1,0 +1,35 @@
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment and config files
+.env
+.env.*
+config.php
+
+# Cursor specific
+.cursor/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Keep these in version control but be careful with sensitive data:
+# bl-content/databases/*.php
+# bl-content/databases/*.json
+# bl-content/uploads/*
+# bl-content/pages/*/index.txt
+# bl-content/pages/*/index.html
+# bl-content/pages/*/index.md
+# bl-content/pages/*/index.php
+# bl-content/pages/*/index.json 
