@@ -34,3 +34,5 @@ config.php
 # bl-content/pages/*/index.php
 # bl-content/pages/*/index.json webhook.php
 /var/www/deploy-scripts/
+webhook.php
+/var/www/deploy-scripts/
