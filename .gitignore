@@ -24,6 +24,10 @@ config.php
 *.temp
 *.bak
 
+# Deployment files
+webhook.php
+/var/www/deploy-scripts/
+
 # Keep these in version control but be careful with sensitive data:
 # bl-content/databases/*.php
 # bl-content/databases/*.json
