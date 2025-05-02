@@ -36,4 +36,7 @@ webhook.php
 # bl-content/pages/*/index.html
 # bl-content/pages/*/index.md
 # bl-content/pages/*/index.php
-# bl-content/pages/*/index.json 
+# bl-content/pages/*/index.json webhook.php
+/var/www/deploy-scripts/
+webhook.php
+/var/www/deploy-scripts/
