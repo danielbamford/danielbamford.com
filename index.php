@@ -1,42 +1,37 @@
 <?php
+// Basic routing
+$url = isset($_GET['url']) ? $_GET['url'] : '';
+$url = rtrim($url, '/');
+$url = filter_var($url, FILTER_SANITIZE_URL);
+$url = explode('/', $url);
 
-/*
- * Bludit
- * https://www.bludit.com
- * Author Diego Najar
- * Bludit is opensource software licensed under the MIT license.
-*/
+// Default page
+$page = 'home';
 
-// Check if Bludit is installed
-if (!file_exists('bl-content/databases/site.php')) {
-	$base = dirname($_SERVER['SCRIPT_NAME']);
-	$base = rtrim($base, '/');
-	$base = rtrim($base, '\\'); // Workaround for Windows Servers
-	header('Location:'.$base.'/install.php');
-	exit('<a href="./install.php">Install Bludit first.</a>');
+// Determine which page to load
+if (!empty($url[0])) {
+    switch ($url[0]) {
+        case 'about':
+            $page = 'about';
+            break;
+        case 'top-1-percent-tech-talent':
+            $page = 'top-1-percent';
+            break;
+        default:
+            // If page not found, redirect to home
+            header('Location: /');
+            exit;
+    }
 }
 
-// Load time init
-$loadTime = microtime(true);
+// Set the content file path
+$content = __DIR__ . '/pages/' . $page . '.php';
 
-// Security constant
-define('BLUDIT', true);
-
-// Directory separator
-define('DS', DIRECTORY_SEPARATOR);
-
-// PHP paths for init
-define('PATH_ROOT', __DIR__.DS);
-define('PATH_BOOT', PATH_ROOT.'bl-kernel'.DS.'boot'.DS);
-
-// Init
-require(PATH_BOOT.'init.php');
-
-// Admin area
-if ($url->whereAmI()==='admin') {
-	require(PATH_BOOT.'admin.php');
+// Check if the content file exists
+if (!file_exists($content)) {
+    header('Location: /');
+    exit;
 }
-// Site
-else {
-	require(PATH_BOOT.'site.php');
-}
+
+// Include the main layout
+include __DIR__ . '/app.php'; 

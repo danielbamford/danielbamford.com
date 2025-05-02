@@ -28,15 +28,6 @@ config.php
 webhook.php
 /var/www/deploy-scripts/
 
-# Keep these in version control but be careful with sensitive data:
-# bl-content/databases/*.php
-# bl-content/databases/*.json
-# bl-content/uploads/*
-# bl-content/pages/*/index.txt
-# bl-content/pages/*/index.html
-# bl-content/pages/*/index.md
-# bl-content/pages/*/index.php
-# bl-content/pages/*/index.json webhook.php
-/var/www/deploy-scripts/
+
 webhook.php
 /var/www/deploy-scripts/
