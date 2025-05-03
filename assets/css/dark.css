@@ -1,0 +1,42 @@
+/* Dark Theme - Colors Only */
+:root {
+    /* Typography */
+    --font-weight-base: 400;
+
+    /* Colors */
+    --primary-color: #ffffff;
+    --secondary-color: #cccccc;
+    --background-color: #121212;
+    --surface-color: #1e1e1e;
+    --surface-color-lite: rgba(30, 30, 30, 0.33);
+    --text-color: #ffffff;
+    --text-secondary: #aaaaaa;
+    --link-color: #4a9eff;
+    --link-hover-color: #6bb5ff;
+    --border-color: #333333;
+}
+
+/* Color-specific styles */
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+a {
+}
+
+a:hover {
+}
+
+footer {
+}
+
+.theme-switcher {
+    color: var(--primary-color);
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+}

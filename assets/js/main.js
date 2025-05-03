@@ -1,55 +1,44 @@
-// Initialize any ApexCharts if needed
-document.addEventListener('DOMContentLoaded', function() {
-    // Example chart initialization (can be customized based on needs)
-    if (document.getElementById('productivityChart')) {
-        var options = {
-            series: [{
-                name: 'Average Engineer',
-                data: [30, 40, 35, 50, 49, 60]
-            }, {
-                name: 'Elite Engineer',
-                data: [300, 400, 350, 500, 490, 600]
-            }],
-            chart: {
-                type: 'bar',
-                height: 350
-            },
-            plotOptions: {
-                bar: {
-                    horizontal: false,
-                    columnWidth: '55%',
-                    endingShape: 'rounded'
-                },
-            },
-            dataLabels: {
-                enabled: false
-            },
-            stroke: {
-                show: true,
-                width: 2,
-                colors: ['transparent']
-            },
-            xaxis: {
-                categories: ['Code Quality', 'Problem Solving', 'System Design', 'Innovation', 'Leadership', 'Overall'],
-            },
-            yaxis: {
-                title: {
-                    text: 'Performance Score'
-                }
-            },
-            fill: {
-                opacity: 1
-            },
-            tooltip: {
-                y: {
-                    formatter: function (val) {
-                        return val + " points"
-                    }
-                }
-            }
-        };
+// Empty JavaScript file 
 
-        var chart = new ApexCharts(document.querySelector("#productivityChart"), options);
-        chart.render();
+document.addEventListener('DOMContentLoaded', function() {
+    const themeSwitcher = document.getElementById('theme-switcher');
+    const themeStylesheet = document.getElementById('theme-stylesheet');
+    const sunIcon = document.querySelector('.sun-icon');
+    const moonIcon = document.querySelector('.moon-icon');
+    let isDarkMode = false;
+
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        switchTheme();
+    }
+
+    themeSwitcher.addEventListener('click', function() {
+        switchTheme();
+        // Save theme preference
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
+
+    function switchTheme() {
+        isDarkMode = !isDarkMode;
+        themeStylesheet.href = isDarkMode ? 'assets/css/dark.css' : 'assets/css/light.css';
+        
+        // Toggle icon visibility
+        if (isDarkMode) {
+            sunIcon.style.display = 'block';
+            moonIcon.style.display = 'none';
+        } else {
+            sunIcon.style.display = 'none';
+            moonIcon.style.display = 'block';
+        }
+    }
+
+    // Set initial icon visibility
+    if (isDarkMode) {
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+    } else {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
     }
 }); 

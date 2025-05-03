@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" preserveAspectRatio="xRepeat noRepeat">
+  <defs>
+    <pattern id="falling-blocks-600" x="0" y="0" width="60" height="600" patternUnits="userSpaceOnUse" patternTransform="scale(1 1)">
+      <!-- Column 1 (0-60px) -->
+      <rect width="2" height="2" x="5" y="5" fill="#888888" opacity="0.9" />
+      <rect width="1" height="1" x="12" y="15" fill="#848484" opacity="0.8" />
+      <rect width="2" height="2" x="3" y="25" fill="#8d8d8d" opacity="0.7" />
+      <rect width="1" height="1" x="8" y="35" fill="#838383" opacity="0.5" />
+      <rect width="1" height="1" x="4" y="45" fill="#939393" opacity="0.35" />
+      <rect width="1" height="1" x="10" y="58" fill="#7b7b7b" opacity="0.25" />
+      <rect width="1" height="1" x="5" y="70" fill="#868686" opacity="0.15" />
+      <rect width="1" height="1" x="8" y="90" fill="#909090" opacity="0.05" />
+      <rect width="1" height="1" x="11" y="110" fill="#888888" opacity="0.02" />
+      
+      <!-- Column 2 (60-120px) -->
+      <rect width="2" height="2" x="62" y="8" fill="#999999" opacity="0.85" />
+      <rect width="1" height="1" x="72" y="16" fill="#8e8e8e" opacity="0.75" />
+      <rect width="1" height="1" x="68" y="28" fill="#878787" opacity="0.65" />
+      <rect width="2" height="2" x="65" y="38" fill="#909090" opacity="0.45" />
+      <rect width="2" height="2" x="70" y="48" fill="#797979" opacity="0.3" />
+      <rect width="2" height="2" x="63" y="60" fill="#8f8f8f" opacity="0.2" />
+      <rect width="1" height="1" x="71" y="75" fill="#7f7f7f" opacity="0.1" />
+      <rect width="1" height="1" x="67" y="95" fill="#7c7c7c" opacity="0.05" />
+      <rect width="1" height="1" x="74" y="120" fill="#7a7a7a" opacity="0.02" />
+      
+      <!-- Column 3 (120-180px) -->
+      <rect width="3" height="3" x="125" y="6" fill="#808080" opacity="0.9" />
+      <rect width="2" height="2" x="135" y="18" fill="#868686" opacity="0.8" />
+      <rect width="2" height="2" x="128" y="30" fill="#828282" opacity="0.7" />
+      <rect width="1" height="1" x="138" y="42" fill="#7c7c7c" opacity="0.5" />
+      <rect width="1" height="1" x="125" y="53" fill="#898989" opacity="0.35" />
+      <rect width="1" height="1" x="132" y="65" fill="#7b7b7b" opacity="0.25" />
+      <rect width="1" height="1" x="140" y="80" fill="#919191" opacity="0.15" />
+      <rect width="1" height="1" x="129" y="100" fill="#888888" opacity="0.05" />
+      <rect width="1" height="1" x="134" y="130" fill="#8c8c8c" opacity="0.02" />
+      
+      <!-- Column 4 (180-240px) -->
+      <rect width="1" height="1" x="182" y="4" fill="#777777" opacity="0.95" />
+      <rect width="1" height="1" x="192" y="15" fill="#797979" opacity="0.85" />
+      <rect width="1" height="1" x="185" y="24" fill="#929292" opacity="0.6" />
+      <rect width="2" height="2" x="190" y="39" fill="#888888" opacity="0.4" />
+      <rect width="2" height="2" x="182" y="52" fill="#818181" opacity="0.25" />
+      <rect width="1" height="1" x="195" y="68" fill="#909090" opacity="0.15" />
+      <rect width="2" height="2" x="186" y="85" fill="#7c7c7c" opacity="0.1" />
+      <rect width="1" height="1" x="193" y="105" fill="#7e7e7e" opacity="0.05" />
+      <rect width="1" height="1" x="188" y="140" fill="#8a8a8a" opacity="0.02" />
+      
+      <!-- Column 5 (240-300px) -->
+      <rect width="2" height="2" x="245" y="7" fill="#8a8a8a" opacity="0.85" />
+      <rect width="2" height="2" x="255" y="17" fill="#888888" opacity="0.7" />
+      <rect width="2" height="2" x="248" y="29" fill="#7b7b7b" opacity="0.65" />
+      <rect width="1" height="1" x="258" y="40" fill="#919191" opacity="0.45" />
+      <rect width="1" height="1" x="245" y="55" fill="#7e7e7e" opacity="0.3" />
+      <rect width="2" height="2" x="253" y="70" fill="#838383" opacity="0.2" />
+      <rect width="1" height="1" x="260" y="90" fill="#8a8a8a" opacity="0.05" />
+      <rect width="1" height="1" x="249" y="120" fill="#7f7f7f" opacity="0.02" />
+      
+      <!-- Column 6 (300-360px) -->
+      <rect width="1" height="1" x="305" y="3" fill="#858585" opacity="0.9" />
+      <rect width="1" height="1" x="315" y="12" fill="#939393" opacity="0.75" />
+      <rect width="1" height="1" x="308" y="26" fill="#818181" opacity="0.6" />
+      <rect width="2" height="2" x="318" y="38" fill="#7d7d7d" opacity="0.4" />
+      <rect width="2" height="2" x="305" y="50" fill="#8a8a8a" opacity="0.25" />
+      <rect width="1" height="1" x="312" y="65" fill="#7c7c7c" opacity="0.15" />
+      <rect width="1" height="1" x="320" y="85" fill="#7e7e7e" opacity="0.1" />
+      <rect width="1" height="1" x="309" y="110" fill="#919191" opacity="0.05" />
+      <rect width="1" height="1" x="315" y="150" fill="#868686" opacity="0.02" />
+      
+      <!-- Column 7 (360-420px) -->
+      <rect width="3" height="3" x="365" y="4" fill="#8c8c8c" opacity="0.8" />
+      <rect width="2" height="2" x="375" y="15" fill="#7c7c7c" opacity="0.8" />
+      <rect width="2" height="2" x="368" y="28" fill="#878787" opacity="0.65" />
+      <rect width="1" height="1" x="378" y="42" fill="#868686" opacity="0.45" />
+      <rect width="1" height="1" x="365" y="58" fill="#7f7f7f" opacity="0.3" />
+      <rect width="1" height="1" x="372" y="75" fill="#8b8b8b" opacity="0.2" />
+      <rect width="1" height="1" x="380" y="95" fill="#909090" opacity="0.05" />
+      <rect width="1" height="1" x="370" y="130" fill="#808080" opacity="0.02" />
+      
+      <!-- Column 8 (420-480px) -->
+      <rect width="2" height="2" x="425" y="6" fill="#8f8f8f" opacity="0.85" />
+      <rect width="3" height="3" x="435" y="16" fill="#909090" opacity="0.7" />
+      <rect width="1" height="1" x="428" y="28" fill="#8b8b8b" opacity="0.55" />
+      <rect width="2" height="2" x="440" y="40" fill="#7a7a7a" opacity="0.4" />
+      <rect width="2" height="2" x="425" y="54" fill="#8d8d8d" opacity="0.2" />
+      <rect width="2" height="2" x="438" y="68" fill="#7a7a7a" opacity="0.15" />
+      <rect width="1" height="1" x="430" y="88" fill="#8e8e8e" opacity="0.05" />
+      <rect width="1" height="1" x="435" y="115" fill="#8e8e8e" opacity="0.05" />
+      <rect width="1" height="1" x="428" y="145" fill="#7a7a7a" opacity="0.02" />
+      
+      <!-- Column 9 (480-540px) -->
+      <rect width="1" height="1" x="485" y="8" fill="#7a7a7a" opacity="0.9" />
+      <rect width="1" height="1" x="495" y="14" fill="#7e7e7e" opacity="0.75" />
+      <rect width="2" height="2" x="488" y="25" fill="#7f7f7f" opacity="0.6" />
+      <rect width="1" height="1" x="498" y="38" fill="#8c8c8c" opacity="0.35" />
+      <rect width="1" height="1" x="485" y="52" fill="#828282" opacity="0.25" />
+      <rect width="1" height="1" x="492" y="70" fill="#919191" opacity="0.1" />
+      <rect width="1" height="1" x="500" y="90" fill="#7f7f7f" opacity="0.05" />
+      <rect width="1" height="1" x="488" y="130" fill="#8f8f8f" opacity="0.02" />
+      
+      <!-- Column 10 (540-600px) -->
+      <rect width="2" height="2" x="545" y="5" fill="#7d7d7d" opacity="0.85" />
+      <rect width="2" height="2" x="555" y="18" fill="#898989" opacity="0.7" />
+      <rect width="1" height="1" x="548" y="28" fill="#919191" opacity="0.55" />
+      <rect width="2" height="2" x="560" y="42" fill="#808080" opacity="0.4" />
+      <rect width="1" height="1" x="545" y="58" fill="#878787" opacity="0.2" />
+      <rect width="1" height="1" x="552" y="72" fill="#868686" opacity="0.15" />
+      <rect width="1" height="1" x="558" y="95" fill="#858585" opacity="0.05" />
+      <rect width="1" height="1" x="550" y="125" fill="#777777" opacity="0.02" />
+      
+      <!-- Extra scattered blocks with lower opacity -->
+      <rect width="1" height="1" x="22" y="175" fill="#888888" opacity="0.02" />
+      <rect width="1" height="1" x="78" y="190" fill="#7a7a7a" opacity="0.02" />
+      <rect width="1" height="1" x="155" y="182" fill="#8c8c8c" opacity="0.02" />
+      <rect width="1" height="1" x="210" y="195" fill="#808080" opacity="0.01" />
+      <rect width="1" height="1" x="268" y="186" fill="#939393" opacity="0.01" />
+      <rect width="1" height="1" x="320" y="188" fill="#777777" opacity="0.01" />
+      <rect width="1" height="1" x="375" y="178" fill="#8a8a8a" opacity="0.01" />
+      <rect width="1" height="1" x="432" y="192" fill="#7f7f7f" opacity="0.01" />
+      <rect width="1" height="1" x="490" y="185" fill="#8f8f8f" opacity="0.01" />
+      <rect width="1" height="1" x="545" y="193" fill="#7c7c7c" opacity="0.01" />
+      
+      <!-- Very sparse blocks at the very bottom -->
+      <rect width="1" height="1" x="38" y="240" fill="#888888" opacity="0.01" />
+      <rect width="1" height="1" x="122" y="260" fill="#7a7a7a" opacity="0.01" />
+      <rect width="1" height="1" x="285" y="245" fill="#8c8c8c" opacity="0.01" />
+      <rect width="1" height="1" x="420" y="255" fill="#808080" opacity="0.01" />
+      <rect width="1" height="1" x="530" y="250" fill="#939393" opacity="0.01" />
+    </pattern>
+  </defs>
+  
+  <!-- Background fill with the pattern - the whole SVG is 600px wide -->
+  <rect width="100%" height="100%" fill="url(#falling-blocks-600)" />
+</svg>
