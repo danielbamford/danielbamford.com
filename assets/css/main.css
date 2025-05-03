@@ -473,4 +473,113 @@ footer>nav>ul>li>a {
     h3 {
         font-size: 1.25rem;
     }
+
+    /* Hamburger menu styles */
+    .theme-switcher {
+        position: fixed;
+        top: var(--spacing-md);
+        right: var(--spacing-md);
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 300;
+        color: var(--primary-color);
+        background-color: var(--surface-color);
+        border: 1px solid var(--border-color);
+    }
+    #hamburger {
+        display: flex !important;
+        position: fixed;
+        top: var(--spacing-md);
+        right: calc(2.5rem + 2 * var(--spacing-md));
+        width: 2.5rem;
+        height: 2.5rem;
+        background: none;
+        border-radius: var(--border-radius-md);
+        border: none;
+        margin: 0;
+        z-index: 300;
+        box-sizing: border-box;
+        padding: 0;
+        color: var(--primary-color);
+        background-color: var(--surface-color);
+        border: 1px solid var(--border-color);
+    }
+    #hamburger>i {
+        font-size: 1.5rem;
+    }
+    #top-menu {
+        position: relative;
+        width: 100%;
+    }
+    #top-menu ul {
+        display: none;
+        flex-direction: column;
+        background: var(--surface-color, #fff);
+        border-radius: 0;
+        box-shadow: none;
+        margin: 0;
+        padding: 2.5rem 0 0 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        width: 100vw;
+        max-width: 100vw;
+        min-height: 100vh;
+        height: 100vh;
+    }
+    #top-menu.open ul {
+        display: flex;
+    }
+    #top-menu ul li {
+        display: block;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+    /* Hide profile photo on mobile */
+    #home-profile-image {
+        display: none !important;
+    }
+    /* Flex layouts stack */
+    .three-insights, .case-studies-section>div, #about-main {
+        flex-direction: column !important;
+        gap: var(--spacing-lg);
+    }
+    .three-insights>div, .case-studies-section>div>article, #about-profile, #about-sidebar {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    /* Home profile stacking */
+    #home-profile {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #home-profile-image {
+        position: static;
+        display: block;
+        margin: 2rem 0 0 0;
+        width: 160px;
+        height: 160px;
+        align-self: center;
+    }
+    #home-profile-image img {
+        width: 100%;
+        height: auto;
+        border-radius: var(--border-radius-md);
+        display: block;
+    }
+    #home-profile>div {
+        margin-right: 0;
+    }
+    body, header, main, section {
+        position: static !important;
+        z-index: auto !important;
+    }
 } 
